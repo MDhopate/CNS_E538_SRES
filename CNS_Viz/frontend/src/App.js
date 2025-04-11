@@ -4,7 +4,7 @@ import VisualizationPreview from "./VisualizationPreview";
 import "./App.css";
 
 function App() {
-  // We'll store the "preview" URL or content in App state
+  // We store the "preview" URL or content in App state
   const [previewContent, setPreviewContent] = useState(null);
 
   // Callback for when user clicks "Generate Visualization"
